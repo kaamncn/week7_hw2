@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function changeNColor() {
+            let n = document.getElementById("name");
+            n.style.color="green";
+        }
+        function changeAColor() {
+            let a = document.getElementById("age");
+            a.style.color="green";
+        }
+        function changeBDColor() {
+            let birth = document.getElementById("bd");
+            birth.style.color="green";
+        }
+    </script>
+</head>
+
+<body>
+    <p>Name : <input type="text" id="name" onchange="changeNColor()"></p>
+    <p>Age : <input type="text" id="age" onchange="changeAColor()"></p>
+    <p>Birthdate : <input type="text" id="bd" onchange="changeBDColor()"></p>
+</body>
+
+</html>
